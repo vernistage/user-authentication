@@ -4,33 +4,6 @@ few key features that need to be added right away.
 This assignment is intended to gauge your current skill level with Rails, and your
 ability to read and understand user requirements.
 
-## Submission Instructions
-
-* Fork this repository
-* Create a new branch named [YOUR FIRST NAME]-[YOUR LAST NAME]
-* Complete both features in this branch
-* Submit a pull request when you are finished.
-
-## What are we looking for?
-
-* Writing clean, maintainable, testable code
-* Ability to execute on given requirements and implement new features in an existing Rails app
-* A focus on user experience. Sometimes requirements can be slightly vague. Think
-about the user when you're making decisions.
-
-## A note on testing
-
-You will notice that there are no tests in this repository.
-
-We like testing and we use tests internally. Our code base includes lots of code
-that is not covered by unit tests. The candidate we hire for this position will
-spend time writing tests for legacy code where needed, and will be expected to
-write tests where appropriate for new features.
-
-We use Rspec internally; however, the test suite was left empty so that we can
-see how you prefer to test. Use whatever framework you are most comfortable with
-and write tests for the components that you feel need to be tested.
-
 ## New features to add
 
 ### Feature 1

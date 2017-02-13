@@ -12,6 +12,8 @@
 #
 
 class Job < ActiveRecord::Base
+  belongs_to :user
+
   enum status: [:active, :inactive]
   enum employment_type: [:full_time, :part_time]
 

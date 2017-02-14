@@ -41,5 +41,4 @@ describe Job do
     end
   end
 
-  # Need to write tests for status and employment type classification
 end

@@ -13,8 +13,10 @@ describe JobsController, :type => :controller do
       expect(response).to render_template("index")
     end
   end
-
+# If logged in
   describe "GET #new" do
+    #context logged in
+    # before that mimic user
     it "responds successfully with an HTTP 200 status code" do
       get :new
       expect(response).to be_success
@@ -25,6 +27,7 @@ describe JobsController, :type => :controller do
       get :new
       expect(response).to render_template("new")
     end
+    #context if not logged in
   end
 
   describe "GET #show" do
